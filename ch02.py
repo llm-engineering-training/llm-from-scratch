@@ -160,7 +160,7 @@ inputs, targets = next(data_iter)
 #embedding_layer = torch.nn.Embedding(vocab_size, output_dim)
 #print(embedding_layer.weight)
 #This are the parameters we'll use to actually train the LLM
-vocab_size = 50257
+""" vocab_size = 50257
 output_dim = 256
 token_embedding_layer = torch.nn.Embedding(vocab_size, output_dim)
 token_embeddings = token_embedding_layer(inputs)
@@ -171,7 +171,7 @@ pos_embedding_layer = torch.nn.Embedding(context_length, output_dim)
 #print(pos_embedding_layer.weight)
 pos_embeddings = pos_embedding_layer(torch.arange(max_length))
 print(pos_embeddings.shape)
-print(pos_embeddings)
+print(pos_embeddings) """
 
 
 

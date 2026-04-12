@@ -337,7 +337,7 @@ def generate_text_simple(model, idx, max_new_tokens, context_size):
  
 start_context = "Hello, I am"
 
-encoded = tokenizer.encode(start_context)
+""" encoded = tokenizer.encode(start_context)
 #print("encoded:", encoded)
 
 encoded_tensor = torch.tensor(encoded).unsqueeze(0)
@@ -349,7 +349,7 @@ out = generate_text_simple(
     idx=encoded_tensor, 
     max_new_tokens=6, 
     context_size=GPT_CONFIG_124M["context_length"]
-)
+) """
 
-print("Output:", out)
-print("Output length:", len(out[0]))
+#print("Output:", out)
+#print("Output length:", len(out[0]))
