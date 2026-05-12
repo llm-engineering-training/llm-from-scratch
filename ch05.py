@@ -530,7 +530,7 @@ else:
 print("Device:", device) """
 
 #model.load_state_dict(torch.load("model.pth", map_location=device, weights_only=True))
-settings, params = download_and_load_gpt2(model_size="124M", models_dir="gpt2")
+# settings, params = download_and_load_gpt2(model_size="124M", models_dir="gpt2")
 
 """ print("Settings:", settings)
 print("Parameter dictionary keys:", params.keys())

@@ -1,2 +1,3 @@
 gpt2/124M/model.ckpt.data-00000-of-00001
 model.pth
+text_classifier.pth
