@@ -484,7 +484,7 @@ def plot_values(epochs_seen, examples_seen, train_values, val_values, label="los
     fig.tight_layout()  # Adjust layout to make room
     plt.savefig(f"{label}-plot.pdf")
     plt.show()
-
+""" 
 epochs_tensor = torch.linspace(0, num_epochs, len(train_losses))
 examples_seen_tensor = torch.linspace(0, examples_seen, len(train_losses))
 
@@ -500,7 +500,7 @@ test_accuracy = calc_accuracy_loader(test_loader, model, device)
 
 print(f"Training accuracy: {train_accuracy*100:.2f}%")
 print(f"Validation accuracy: {val_accuracy*100:.2f}%")
-print(f"Test accuracy: {test_accuracy*100:.2f}%")
+print(f"Test accuracy: {test_accuracy*100:.2f}%") """
 
 """ 
 See: https://arxiv.org/abs/1811.12808
@@ -509,7 +509,7 @@ For model evaluation and selection for building classifiers
 Below is how we save the model after training
  """
 
-torch.save(model.state_dict(), "text_classifier.pth")
+#torch.save(model.state_dict(), "text_classifier.pth")
 
 """ 
 With the model saved we can always load the model with:
