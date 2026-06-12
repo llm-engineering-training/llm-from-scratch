@@ -1,3 +1,6 @@
 gpt2/124M/model.ckpt.data-00000-of-00001
+gpt2-medium355M-sft.pth
+lib/
 model.pth
 text_classifier.pth
+gpt2/355M
